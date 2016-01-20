@@ -28,6 +28,23 @@ PRODUCT_COPY_FILES += \
     device/lge/jag3gds/prebuilt/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
     device/lge/jag3gds/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
+
+# TWRP
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/twrp/vendor/firmware/cmnlib.b00:recovery/root/system/vendor/firmware/cmnlib.b00 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/cmnlib.b01:recovery/root/system/vendor/firmware/cmnlib.b01 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/cmnlib.b02:recovery/root/system/vendor/firmware/cmnlib.b02 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/cmnlib.b03:recovery/root/system/vendor/firmware/cmnlib.b03 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/cmnlib.mdt:recovery/root/system/vendor/firmware/cmnlib.mdt \
+    $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.b00:recovery/root/system/vendor/firmware/keymaster/keymaster.b00 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.b01:recovery/root/system/vendor/firmware/keymaster/keymaster.b01 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.b02:recovery/root/system/vendor/firmware/keymaster/keymaster.b02 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.b03:recovery/root/system/vendor/firmware/keymaster/keymaster.b03 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.mdt:recovery/root/system/vendor/firmware/keymaster/keymaster.mdt \
+    $(LOCAL_PATH)/twrp/vendor/lib/hw/keystore.msm8226.so:recovery/root/system/vendor/lib/hw/keystore.msm8226.so \
+    $(LOCAL_PATH)/twrp/vendor/lib/libQSEEComAPI.so:recovery/root/system/vendor/lib/libQSEEComAPI.so
+
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
