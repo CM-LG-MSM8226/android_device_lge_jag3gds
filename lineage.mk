@@ -7,8 +7,8 @@ TARGET_SCREEN_HEIGHT := 1280
 
 # Release name
 PRODUCT_RELEASE_NAME := LG G3s
-PRODUCT_NAME := cm_jag3gds
 PRODUCT_MANUFACTURER := lge
+PRODUCT_NAME := lineage_jag3gds
 PRODUCT_MODEL := LG-D724
 
 $(call inherit-product, device/lge/jag3gds/full_jag3gds.mk)
