@@ -24,7 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += device/lge/jag3gds/overlay
 # Configs
 PRODUCT_COPY_FILES += \
     device/lge/jag3gds/prebuilt/etc/media_profiles.xml:system/etc/media_profiles.xml \
-    device/lge/jag3gds/prebuilt/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
+    device/lge/jag3gds/prebuilt/etc/mixer_paths.xml:system/vendor/etc/mixer_paths.xml \
     device/lge/jag3gds/prebuilt/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
     device/lge/jag3gds/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
